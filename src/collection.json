@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-jest": {
+      "description": "A schematic for creating a preset of Jest configuration for Angular",
+      "factory": "./ng-jest/index#ngJest"
+    }
+  }
+}
